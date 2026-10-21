@@ -1,24 +1,24 @@
 // ✏️ Edita aquí todo el contenido del portafolio.
 
 export const profile = {
-  name: 'Ubaldo Gael Moreno Bataz',
-  shortName: 'Ubaldo Moreno',
-  role: 'Desarrollador web',
-  topLabel: '“Sitio web”',
-  heroText: 'Construyo cosas',
+  name: 'Nexus Creative - Desarrollo web',
+  shortName: 'Gael Bataz',
+  role: 'Gustavo Hernández',
+  topLabel: 'Desarrollo Web',
+  heroText: 'Construimos cosas',
   intro: 'Desarrollo sitios web, tiendas online y aplicaciones responsive.',
-  hiLabel: 'Hi',               // texto de la tarjeta morada
-  city: '[Ciudad]',            // ciudad que se muestra junto a la hora
+  hiLabel: 'Hola',               // texto de la tarjeta morada
+  city: 'CDMX',            // ciudad que se muestra junto a la hora
   timeZone: 'America/Mexico_City',
   email: 'tu@correo.com',
   linkedin: '#',
   github: '#',
   photo: '',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
-    'Soy Ubaldo',
-    'Licenciado en Ciencias de la Computación (BUAP) y desarrollador web con experiencia en proyectos freelance y personales.',
-    'Trabajo con React, Next.js, JavaScript, PHP, WordPress y WooCommerce, desarrollando sitios web, tiendas online y aplicaciones responsive.',
-    'Me enfoco en crear soluciones funcionales, eficientes y adaptadas a las necesidades de cada proyecto.',
+    'Somos Nexus Creative',
+    'Un equipo de desarrolladores web especializados en crear soluciones digitales innovadoras.',
+    'Hacemos páginas web, tiendas online y aplicaciones responsive adaptadas a las necesidades de cada cliente.',
+    'Nos enfocamos en crear soluciones funcionales, eficientes y adaptadas a las necesidades de cada proyecto.',
   ],
 }
 
