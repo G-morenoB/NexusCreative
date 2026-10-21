@@ -23,10 +23,42 @@ export const profile = {
 }
 
 export const projects = [
-  { name: 'INVITACIONES', description: 'Invitaciones digitales', role: 'Desarrollador web', period: '2026', url: '#', images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792623683/inv2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792623682/inv3.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792623677/inv1.png'] },
-  { name: 'Proyecto 2', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'WordPress · WooCommerce', url: '#', images: [] },
-  { name: 'Proyecto 3', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'PHP · JavaScript', url: '#', images: [] },
-  { name: 'Proyecto 4', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: '[Tecnologías]', url: '#', images: [] },
+{
+  name: 'Invitaciones',
+  description: 'Invitaciones web personalizadas para eventos.',
+  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792623677/inv1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792623683/inv2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792623682/inv3.png'],
+  links: [
+    { label: 'XV años', url: 'https://xv-inv.vercel.app/' },
+    { label: 'Boda', url: 'https://inv-boda-seven.vercel.app/' },
+    { label: 'Cumpleaños', url: 'https://invitacion-gianna.vercel.app/' },
+  ],
+},
+{
+  name: 'PÁGINAS WEB',
+  description: 'Sitios web personalizados para diferentes necesidades.',
+  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792455898/IMG4.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792455911/IMG6.png'],
+  links: [
+    { label: 'Nestor-Nutrición', url: 'https://nestorguinto-nutricion.vercel.app/' },
+  ],
+},
+{
+  name: 'TIENDA ONLINE',
+  description: 'Tiendas online personalizadas.',
+  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
+  links: [
+    { label: 'Magic Ideas', url: 'https://magicideascdmx.com/' },
+  ],
+},
+{
+  name: 'MENÚS DIGITALES',
+  description: 'Menús digitales para restaurantes y negocios.',
+  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
+  links: [
+    { label: 'Café', url: 'https://menu-cafe-fawn.vercel.app/' },
+    { label: 'Restaurante', url: 'https://menu-web-self.vercel.app/' },
+    { label: 'Bar', url: 'https://menu-antrobar.vercel.app/' },
+  ],
+},
 ]
 
 export const techGroups = [
