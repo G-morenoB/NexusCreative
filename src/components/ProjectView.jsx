@@ -13,10 +13,13 @@ export default function ProjectView({ folder }) {
       )}
       <div className="info">
         <div className="scope"><small>Descripción</small>{folder.description}</div>
-        <div className="row"><span>Puesto</span><b>{folder.role}</b></div>
-        <div className="row"><span>Periodo</span><b>{folder.period}</b></div>
-        <div className="row"><span>Tecnologías</span><b>{folder.stack}</b></div>
-        <div className="links"><a href={folder.url} target="_blank" rel="noreferrer">Sitio web →</a></div>
+        {folder.links?.length > 0 && (
+          <div className="links">
+            {folder.links.map((l) => (
+              <a key={l.label} href={l.url} target="_blank" rel="noreferrer">{l.label} →</a>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )
