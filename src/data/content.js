@@ -5,15 +5,15 @@ export const profile = {
   shortName: 'Nexus Creative',
   role: '',
   topLabel: 'Desarrollo Web',
-  heroText: 'Construimos cosas',
-  intro: 'Desarrollo sitios web, tiendas online y aplicaciones responsive.',
+  heroText: 'Construimos cosas', 
+  intro: 'Desarrollamos sitios web, tiendas online y aplicaciones responsive.',
   hiLabel: 'Hola',               // texto de la tarjeta morada
   city: 'CDMX',            // ciudad que se muestra junto a la hora
   timeZone: 'America/Mexico_City',
   email: 'tu@correo.com',
   linkedin: '#',
   github: '#',
-  photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792627182/logo4.png',                   // ej. '/foto.jpg' (archivo dentro de /public)
+  photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792627237/logo1.jpg',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
     'Somos Nexus Creative',
     'Un equipo de desarrolladores web especializados en crear soluciones digitales innovadoras.',
