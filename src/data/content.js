@@ -52,7 +52,7 @@ export const projects = [
 {
   name: 'Menús Web',
   description: 'Menús digitales para restaurantes y negocios.',
-  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
+  images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792627119/men1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792627121/men2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792626904/men3.jpg','https://res.cloudinary.com/duytqng6m/image/upload/v1792626906/men4.jpg','https://res.cloudinary.com/duytqng6m/image/upload/v1792626907/men5.png'],
   links: [
     { label: 'Café', url: 'https://menu-cafe-fawn.vercel.app/' },
     { label: 'Restaurante', url: 'https://menu-web-self.vercel.app/' },
