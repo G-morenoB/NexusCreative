@@ -13,7 +13,7 @@ export const profile = {
   email: 'tu@correo.com',
   linkedin: '#',
   github: '#',
-  photo: '',                   // ej. '/foto.jpg' (archivo dentro de /public)
+  photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792627182/logo4.png',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
     'Somos Nexus Creative',
     'Un equipo de desarrolladores web especializados en crear soluciones digitales innovadoras.',
