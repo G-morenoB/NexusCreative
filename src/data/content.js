@@ -34,7 +34,7 @@ export const projects = [
   ],
 },
 {
-  name: 'PÁGINAS WEB',
+  name: 'Páginas Web',
   description: 'Sitios web personalizados para diferentes necesidades.',
   images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792455898/IMG4.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792455911/IMG6.png'],
   links: [
@@ -42,7 +42,7 @@ export const projects = [
   ],
 },
 {
-  name: 'TIENDA ONLINE',
+  name: 'Tienda Online',
   description: 'Tiendas online personalizadas.',
   images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
   links: [
@@ -50,7 +50,7 @@ export const projects = [
   ],
 },
 {
-  name: 'MENÚS WEB',
+  name: 'Menús Web',
   description: 'Menús digitales para restaurantes y negocios.',
   images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
   links: [
