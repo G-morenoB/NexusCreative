@@ -50,7 +50,7 @@ export const projects = [
   ],
 },
 {
-  name: 'MENÚS DIGITALES',
+  name: 'MENÚS WEB',
   description: 'Menús digitales para restaurantes y negocios.',
   images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png'],
   links: [
