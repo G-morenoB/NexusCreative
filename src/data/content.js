@@ -2,8 +2,8 @@
 
 export const profile = {
   name: 'Nexus Creative - Desarrollo web',
-  shortName: 'Gael Bataz',
-  role: 'Gustavo Hernández',
+  shortName: 'Nexus Creative',
+  role: '',
   topLabel: 'Desarrollo Web',
   heroText: 'Construimos cosas',
   intro: 'Desarrollo sitios web, tiendas online y aplicaciones responsive.',
