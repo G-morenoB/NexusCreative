@@ -3,14 +3,16 @@ import TechView from './TechView'
 export default function ProjectView({ folder }) {
   if (!folder) return null
   if (folder.type === 'tech') return <TechView />
-  const shots = folder.images?.length ? folder.images : [null, null]
+  const hasImages = folder.images?.length > 0
   return (
     <div className="track">
-      {shots.map((src, i) =>
-        src
-          ? <div className="shot has-img" key={i}><img src={src} alt={`${folder.name} ${i + 1}`} /></div>
-          : <div className="shot" key={i}>Captura {i + 1} de {folder.name}<br />(agrega tu imagen en content.js)</div>
-      )}
+      {hasImages
+        ? folder.images.map((src, i) => (
+            <img className="shot-img" key={i} src={src} alt={`${folder.name} ${i + 1}`} />
+          ))
+        : [1, 2].map((n) => (
+            <div className="shot" key={n}>Captura {n} de {folder.name}<br />(agrega tu imagen en content.js)</div>
+          ))}
       <div className="info">
         <div className="scope"><small>Descripción</small>{folder.description}</div>
         {folder.links?.length > 0 && (
