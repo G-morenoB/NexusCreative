@@ -10,9 +10,8 @@ export const profile = {
   hiLabel: 'Hola',               // texto de la tarjeta morada
   city: 'CDMX',            // ciudad que se muestra junto a la hora
   timeZone: 'America/Mexico_City',
-  email: 'tu@correo.com',
-  linkedin: '#',
-  github: '#',
+  email: 'Nexuscreative@outlook.es',
+  Instagam: 'https://www.instagram.com/nexuscreative.mx?utm_source=ig_web_button_share_sheet&obrf=ZDNlZDc0MzIxNw==',
   photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792627237/logo1.jpg',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
     'Somos Nexus Creative',
